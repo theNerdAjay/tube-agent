@@ -1,2 +1,88 @@
-__pycache__
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+.venv/
+*.egg-info/
+dist/
+build/
+wheels/
+sdist/
+*.whl
+pip-log.txt
+pip-delete-this.txt
+.eggs/
+develop-eggs/
+lib64/python*/site-packages/*egg
+lib/python*/site-packages/*egg
+easy-install.pth
+*.pth
+*.dist-info
+_build/
+conda-build/
+
+# Installer logs
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.pytest_cache/
+pytest_debug.log
+
+# Environment variable files
+.env
 .venv
+*.envrc
+env.d/
+
+# Jupyter Notebook related files
+.ipynb_checkpoints
+*.ipynb.swp
+*.jupyterlite/
+
+# Poetry related files
+poetry.lock
+.venv
+.poetry
+__pypackages__/
+
+# pyenv related files
+.python-version
+
+# mypy cache
+.mypy_cache/
+
+# Flit related files
+build/
+
+# Black cache
+.black_cache
+
+# Other temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
